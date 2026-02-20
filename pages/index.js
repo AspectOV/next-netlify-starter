@@ -1,5 +1,19 @@
 import { useEffect, useState, useRef, useCallback } from "react";
 
+const styles = {
+  container: {
+    minHeight: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    background: 'black',
+    color: 'white',
+    position: 'relative',
+    overflow: 'hidden',
+  },
+};
+
 const COMBO_PHRASES = [
   "DIEGO APPRECIATED! 🙏",
   "DOUBLE RESPECT! 💥",
